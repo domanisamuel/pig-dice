@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pig-Dice</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="CSS/styles.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Hind+Siliguri">
+    </head>
+<body>
+<h1>Pig Dice Game</h1>
+<h3>Let's Play!</h3>
+	<!---input name for player1-->
+	<form id="player-1">
+		<label for="player1Name">Player 1: </label>
+		<input type="text" placeholder="Enter your name" id="name1">
+	</form>
+	<!---input name for player2-->
+	<form id="player-2">
+		<label for="player2Name">Player 2: </label>
+		<input type="text" placeholder="Enter your name" id="name2">
+	</form>
+	<!--start button-->
+	<input type="submit" value="start!" id="Start">
+	
+<br><br><br>	
+<input type="submit" value="NEW GAME" id="new-game">
+<div class="container fluid">
+	<div class="row">
+ 		<div class="col-md-6">
+<!--Player1-->
+	<h2 id="player1Name">Player 1</h2>
+	<input type="submit" value="Roll" id="player1-roll">
+	<input type="submit" value="Hold" id="player1-hold">
+	<h2 id="die-roll-1"> Dice Roll: </h2>
+	<p id="round-total-1">Round Total: </p>
+	<p id="total-score-1">Players Score: </p>
+		</div>
+		<div class="col-md-6">
+<!--Player2-->
+	<h2 id="player1Name">Player 2</h2>
+	<input type="submit" value="Roll" id="player2-roll">
+	<input type="submit" value="Hold" id="player2-hold">
+	<h2 id="die-roll-2"> Dice Roll: </h2>
+	<p id="round-total-2">Round Total: </p>
+	<p id="total-score-2">Players Score: </p>
+		</div>
+	</div>
+</div>	
+<!--Bootstrap scripts-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--JQUERY-->	   
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="JS/script.js"></script>
+</body>
+</html>
