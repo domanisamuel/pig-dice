@@ -1,31 +1,25 @@
 body{
 	font-family: 'Hind Siliguri', Open Sans;
 }
-.text{
-	padding:10%;
-	font-family: 'Hind Siliguri', Open Sans;
+.player-console {
+  display: none;
+}
+.what{
+  height: 450px;
 }
 input[type=text], select {
-    padding: 12px 20px;
+    padding: 10px 16px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
 	background-color: #ccc;
 }
-input[type=number], select {
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-	background-color: #ccc;
-}
-input[type=submit], select {
+.btn{
     background-color: 	#3232ff;
     color: white;
     font-size: 18px;
-    padding: 8px 20px;
+    padding: 12px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
